@@ -1,0 +1,24 @@
+{
+  "name": "xapp-installer",
+  "version": "1.0.0",
+  "description": "a tool for automatically updating and uploading experience apps and their assets to showpad",
+  "main": "upload.js",
+  "author": "Showpad SE Interns",
+  "license": "ISC",
+  "scripts": {
+    "serve": "npx showpad experience serve",
+    "build": "npx browserify --entry src/upload.js -o src/bundle.js"
+  },
+  "dependencies": {
+    "browserify": "^16.2.3",
+    "csvtojson": "^2.0.8",
+    "jszip": "^3.2.1",
+    "path-browserify": "^1.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@showpad/sdk": "^0.8.2",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0"
+  }
+}

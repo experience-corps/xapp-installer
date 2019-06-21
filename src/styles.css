@@ -1,0 +1,36 @@
+.reqcontainer {
+  position: relative;
+  background-color: slategrey;
+  padding: 20px;
+  border-radius: 5px;
+  max-height: 400px;
+  -webkit-box-shadow: inset -9px 32px 167px -12px rgba(20,35,61,1);
+  -moz-box-shadow: inset -9px 32px 167px -12px rgba(20,35,61,1);
+  box-shadow: inset -9px 32px 167px -12px rgba(20,35,61,1);
+}
+
+.outcontainer {
+  -webkit-box-shadow: 0px 11px 39px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 11px 39px -12px rgba(0,0,0,0.75);
+  box-shadow: 0px 11px 39px -12px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
+
+h3 {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  color: white;
+  margin-bottom: 0px;
+}
+
+body {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+

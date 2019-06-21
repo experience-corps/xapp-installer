@@ -1,0 +1,8 @@
+.showpadconfig.json
+package-lock.json
+yarn.lock
+.vscode
+node_modules
+.DS_Store
+*.showpad
+bundle.js
