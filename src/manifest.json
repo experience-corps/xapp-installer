@@ -1,7 +1,7 @@
 {
-    "identifier": "com.showpad.store",
-    "name": "store",
+    "identifier": "com.showpad.xapp-installer",
+    "name": "xapp-installer",
     "version": "1.0.6",
-    "description": "a store for exapps",
-    "author": "SE team"
+    "description": "an installer for remote xapp buildfile packages",
+    "author": "Showpad SE Interns"
 }
