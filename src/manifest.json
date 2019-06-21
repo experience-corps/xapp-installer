@@ -1,5 +1,5 @@
 {
-    "identifier": "com.showpad.xapp-installer",
+    "identifier": "com.showpad.xappinstaller",
     "name": "xapp-installer",
     "version": "1.0.6",
     "description": "an installer for remote xapp buildfile packages",
